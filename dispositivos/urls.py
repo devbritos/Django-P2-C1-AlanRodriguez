@@ -5,9 +5,11 @@ urlpatterns = [
 path("", views.inicio, name="inicio"),
 path("zonas/<int:zona_id>/dispositivos/",
      views.dispositivos_zona,name="por_zona"),
-
-path("ubicacion/<int:zona_id>/dispositivos/",
-     views.zona,name="zonita")
+path("inicio/",views.inicio,name ="inicio"),
+path("dispositivos/", views.catalogo, name="catalogo"),
+path("zonas/",views.zonas,name ="zonas")
 ]
+
+
 
 

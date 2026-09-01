@@ -1,0 +1,58 @@
+<!-- templates/base.html -->
+<!doctype html>
+<html lang="es">
+{% load django_bootstrap5 %}
+<head>
+<meta charset="utf-8">
+<title>{% block title %}EcoEnergy{% endblock %}</title>
+{% bootstrap_css %}
+</head>
+<body class = "container py-4">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+            <span class="fs-4">⚡</span>
+            EcoEnergy
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarEcoEnergy"
+            aria-controls="navbarEcoEnergy"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarEcoEnergy">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Catálogo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dispositivos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Consumo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-success rounded-pill px-4 ms-lg-2" href="#">
+                        Panel EcoEnergy
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>{% block content %}{% endblock %}
+    {% bootstrap_javascript %}
+</main>
+</body>
+</html>

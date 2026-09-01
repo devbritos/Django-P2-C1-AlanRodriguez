@@ -1,0 +1,18 @@
+[
+{
+"id": 1,
+"nombre": "Medidor inteligente",
+"estado": "Activo",
+"consumo_kwh": 18.4,
+"id_zona": 1,
+"categoria_id": 1
+}, 
+{
+"id": 2,
+"nombre": "Climatizador",
+"estado": "Revisión",
+"consumo_kwh": 32.7,
+"id_zona": 2,
+"categoria_id": 2
+}
+]

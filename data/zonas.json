@@ -1,0 +1,13 @@
+[{
+    "id_zona": 1,
+    "nombre": "Zona 1",
+    "limite_kwh": 3.5
+},{
+    "id_zona": 1,
+    "nombre": "Zona 2",
+    "limite_kwh": 5.2
+},{
+    "id_zona": 1,
+    "nombre": "Zona 3",
+    "limite_kwh": 4.1
+}]

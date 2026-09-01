@@ -1,0 +1,14 @@
+[{
+    "categoria_id": 1,
+    "nombre": "Categoria 1",
+    "descripcion": "Datos de categoria 1"
+},{
+    "categoria_id": 2,
+    "nombre": "Categoria 2",
+    "descripcion": "Datos de categoria 2"
+},{
+    "categoria_id": 3,
+    "nombre": "Categoria 3",
+    "descripcion": "Datos de categoria 3"
+}
+]
