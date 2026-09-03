@@ -1,18 +1,18 @@
 [{
     "id_zona": 1,
-    "nombre": "Zona 1",
+    "nombre": "Administracion",
     "limite_kwh": 3.5
 },{
     "id_zona": 2,
-    "nombre": "Zona 2",
+    "nombre": "Produccion",
     "limite_kwh": 5.2
 },{
     "id_zona": 3,
-    "nombre": "Zona 3",
+    "nombre": "Bodega",
     "limite_kwh": 1000
 },{
     "id_zona": 4,
-    "nombre": "Zona 4",
+    "nombre": "Cafeteria",
     "limite_kwh": 1000
 }
 ]

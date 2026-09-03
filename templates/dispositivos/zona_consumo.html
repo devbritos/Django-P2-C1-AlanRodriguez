@@ -4,21 +4,21 @@
 <div class="container py-3">
   <h2 class="mb-4 text-center">Monitoreo y Consumo por Zona</h2>
 
-  <!-- Contenedor principal con distribución vertical -->
+
   <div class="row g-4">
     {% for z in zonas %}
-      <!-- col-12 fuerza a que cada zona ocupe la fila completa verticalmente -->
+
       <div class="col-12">
         <div class="card shadow-sm border-secondary">
           
-          <!-- Encabezado de la Zona -->
+
           <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
             <h3 class="h4 mb-0">{{ z.nombre }}</h3>
             <div>
               {% if z.estado == 'ALERTA' %}
                 <span class="badge bg-danger fs-6"> ALERTA DE CONSUMO EXCEDIDO</span>
               {% else %}
-                <span class="badge bg-success fs-6">NORMAL</span>
+                <span class="badge bg-success fs-6">DENTRO DEL LIMITE</span>
               {% endif %}
             </div>
           </div>
