@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container text-center py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1 class="display-1 fw-bold text-danger">404</h1>
+      <h2 class="mb-3">Página no encontrada</h2>
+      <p class="lead text-muted mb-4">
+        Lo sentimos, la zona, dispositivo o sección a la que intentas acceder no existe o fue movida.
+      </p>
+      <a href="{% url 'dispositivos:inicio' %}" class="btn btn-primary btn-lg">
+        Volver al Inicio
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
